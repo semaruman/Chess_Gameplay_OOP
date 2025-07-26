@@ -11,7 +11,7 @@ class BaseFigure:
         if type(x)!=int or type(y)!=int:
             raise TypeError
 
-        if 0 <= x <=9 and 0 <= y <=9:
+        if 0 <= x <= 7 and 0 <= y <= 7:
             return True
 
         raise ValueError("Некорректные координаты")
