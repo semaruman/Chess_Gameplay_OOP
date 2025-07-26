@@ -1,2 +1,2 @@
 # Chess_Gameplay_OOP
-Implementing the chess game in python using the OOP concept
+Good afternoon everyone! I have completed a course on object-oriented programming in python. As a result, I decided to apply my knowledge in a single project. The project is a simulation of the game of chess.
