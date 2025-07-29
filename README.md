@@ -1,2 +1,2 @@
 # Chess_Gameplay_OOP
-Good afternoon everyone! I have completed a course on object-oriented programming in python. As a result, I decided to apply my knowledge in a single project. The project is a simulation of the game of chess.
+Всем добрый день! Я закончил курс объектно-ориентированного программирования на python. В результате я решил применить свои знания в одном проекте. Проект представляет собой симуляцию игры в шахматы.
