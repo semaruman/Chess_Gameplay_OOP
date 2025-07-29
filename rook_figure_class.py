@@ -14,6 +14,9 @@ class RookFigure(BaseFigure):
         else:
             raise WrongFigureMotion("Ладья не может так ходить")
 
+        if type(pole.pole[x][y])==str:
+            return True
+
         if pole.pole[x][y]._team == self._team:
             "Если ладья ходит на место своей фигуры, то генерируется ошибка"
             raise EatYourFigureException("Нельзя ходить на место своей фигуры")
