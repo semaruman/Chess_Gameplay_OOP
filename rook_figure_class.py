@@ -11,11 +11,10 @@ class RookFigure(BaseFigure):
         if self._x - x == 0 or self._y - y==0:
             """Если ладья ходит прямо, то ничего неладть не надо.
             Иначе генерируется ошибка о неправильном ходе"""
-            print("geghhieegerg")
         else:
             raise WrongFigureMotion("Ладья не может так ходить")
 
-        if pole._pole[x][y]._team == self._team:
+        if pole.pole[x][y]._team == self._team:
             "Если ладья ходит на место своей фигуры, то генерируется ошибка"
             raise EatYourFigureException("Нельзя ходить на место своей фигуры")
 
