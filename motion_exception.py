@@ -8,6 +8,6 @@ class WrongFigureMotion(MotionException):
     когда фигура ходит неверно"""
 
 
-class EatYourFigure(WrongFigureMotion):
+class EatYourFigureException(WrongFigureMotion):
     """Исключение, которое будет вызываться,
     когда фигура пытается сходить на место своей фигуры"""

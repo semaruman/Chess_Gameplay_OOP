@@ -2,15 +2,16 @@
 Специальный файл для проверки функциональности классов и т.д.
 """
 
-from base_figure_class import BaseFigure
+from game_pole_class import pole
+from rook_figure_class import RookFigure
 
-
-bf = BaseFigure(0,0) # создал примитивную фигуру
-print(bf)
+pole.draw()
 print()
 
-bf(1,2) # сделал ход
-print(bf)
-print()
 
-print(BaseFigure.__doc__) # вывел информацию о базовом классе
+for i in range(8):
+    for j in range(8):
+        RookFigure(i,j)
+
+
+pole.draw()
