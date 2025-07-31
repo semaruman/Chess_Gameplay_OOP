@@ -2,16 +2,17 @@
 Специальный файл для проверки функциональности классов и т.д.
 """
 
-from game_pole_class import pole
-from rook_figure_class import RookFigure
-
 pole.draw()
 print()
 
+bh = BishopFigure(0,0,False)
+pole.draw()
 
-for i in range(8):
-    for j in range(8):
-        RookFigure(i,j)
+bh(5,5)
 
+r = RookFigure(1,5)
+pole.draw()
 
+r(5,5)
+r(1,5)
 pole.draw()
