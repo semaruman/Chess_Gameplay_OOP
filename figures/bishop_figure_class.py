@@ -26,5 +26,5 @@ class BishopFigure(BaseFigure):
 
     def __str__(self):
         if self._team:
-            return '♝' # если команда ладьи - белые
-        return '♗' # если команда ладьи - чёрные
+            return '♝' # если команда - белые
+        return '♗' # если команда - чёрные
